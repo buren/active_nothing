@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'acitve_nothing/version'
+require 'active_nothing/version'
 
 Gem::Specification.new do |spec|
-  spec.name        = 'acitve_nothing'
-  spec.version     = AcitveNothing::VERSION
+  spec.name        = 'active_nothing'
+  spec.version     = ActiveNothing::VERSION
   spec.authors     = ['Jacob Burenstam']
   spec.email       = ['burenstam@gmail.com']
 
-  spec.summary     = 'TODO: Write a short summary, because Rubygems requires one.'
-  spec.description = 'TODO: Write a longer description or delete this line.'
+  spec.summary     = 'Active Nothing pattern'
+  spec.description = 'Active Nothing (aka. Null Object Pattern).'
   spec.homepage    = 'https://github.com/buren/active_nothing'
   spec.license     = 'MIT'
 
